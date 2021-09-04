@@ -1,0 +1,135 @@
+.quote{
+
+  margin-bottom: 80px;
+  &__box{
+    display: flex;
+    margin-bottom: 40px;
+  }
+  &__quote-text-box{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 63px 0 49px 78px;
+    width: 100%;
+
+  }
+  &__quote-name{
+    font-family: Gilroy, sans-serif;
+    font-size: 14px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+  }
+
+  &__quote-sent{
+    font-family: Gilroy, sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    margin: 27px 0 60px;
+  }
+
+  &__quote-link{
+    font-family: Gilroy, sans-serif;
+    font-size: 18px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  &__cards{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__card{
+    width: calc(50% - 30px);
+    padding: 48px 48px 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.5s;
+    &:hover{
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+  }
+
+  &__card-title{
+    margin-bottom: 16px;
+    font-family: Gilroy, sans-serif;
+    font-size: 24px;
+    line-height: 140.62%;
+    color: #000000;
+
+  }
+
+  &__card-subtitle{
+    margin-bottom: 16px;
+    font-family: Gilroy, sans-serif;
+    font-size: 18px;
+    line-height: 140.62%;
+    color: #000000;
+
+  }
+  &__card-link{
+    font-family: Gilroy, sans-serif;
+    font-size: 14px;
+    line-height: 140.62%;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.5s;
+    &:hover{
+      font-size: 20px;
+      color: #0a53be;
+    }
+  }
+
+  @media (max-width: 900px) {
+    &__quote-sent{
+      font-size: 30px;
+    }}
+
+  @media (max-width: 768px) {
+    &__quote-img{
+      height: 300px;
+      width: 400px;
+    }
+    &__quote-text-box{
+      height: 300px;
+      padding: 63px 0 49px 20px;}
+
+    &__quote-sent{
+      font-size: 16px;
+      line-height: 30px;
+      margin: 27px 0 10px;}
+
+  &__card{
+    width: calc(50% - 10px);}}
+
+  @media (max-width:450px) {
+    &__quote-sent{
+      font-size: 16px;
+      line-height: 22px;
+      margin: 27px 0 10px;}
+    &__quote-link{
+      font-size: 12px;
+    }
+
+    &__quote-name{
+      font-size: 12px;
+    }
+    &__cards{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    &__card{
+      width: 100%;
+      margin-bottom: 20px;}
+
+  }
+
+
+
+
+
+}

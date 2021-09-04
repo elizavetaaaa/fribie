@@ -1,0 +1,27 @@
+.text {
+  padding: 88px 0 71px;
+  text-align: center;
+
+  &__title {
+    font-family: Gilroy, sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 23px;
+  }
+
+  &__subtitle {
+    font-family: Gilroy, sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+  }
+  @media (max-width: 900px) {
+    &__title {
+      font-family: Gilroy, sans-serif;
+      font-size: 20px;}
+
+  }
+}

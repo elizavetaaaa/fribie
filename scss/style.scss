@@ -1,0 +1,14 @@
+@import "../src/bootstrap/bootstrap-grid.min.css";
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@import "header";
+@import "hero";
+@import "work";
+@import "cards";
+@import "signup";
+@import "text";
+@import "quote";
+@import "footer";

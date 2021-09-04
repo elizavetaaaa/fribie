@@ -1,0 +1,102 @@
+.signup{
+  height: 240px;
+  background-color: #f7941e;
+  //padding: 81px 235px 69px;
+  &__first-section{
+    padding: 70px  0  69px 250px;
+  }
+  &__title1{
+    font-family: Gilroy, sans-serif;
+    font-size: 32px;
+    line-height: 140.62%;
+    color: #000000;
+
+  }
+  &__title2{
+    font-family: Gilroy, sans-serif;
+    font-size: 32px;
+    line-height: 140.62%;
+    color: #000000;
+    font-weight: 10;
+
+  }
+  &__sec-section{
+    padding: 96px 0 0 50px ;
+  }
+  &__btn1{
+    width: 200px;
+    height: 48px;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    &:hover{
+      cursor: pointer;
+      background-color: #fff;
+      border: 1px solid #000;
+      color: #000;
+    }
+
+  }
+  &__btn2{
+    width: 200px;
+    height: 48px;
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: 0.5s;
+    &:hover{
+      cursor: pointer;
+      background-color: #fff;
+      border: 1px solid #000;
+      color: #000;
+    }
+  }
+
+  @media (max-width: 1090px) {
+    &__first-section{
+      padding: 81px 0 0 150px;
+    }
+
+  }
+  @media (max-width: 900px) {
+    &__first-section{
+      padding: 81px 0 0 150px;
+    }
+    &__title1{
+      font-size: 20px;}
+    &__title2{
+      font-size: 20px;}
+    &__btn1{
+      width: 150px;}
+
+    &__btn2{
+      width: 150px;}
+
+  }
+  @media (max-width:684px) {
+    &__sec-section{
+      padding-top: 70px  ;
+    }
+    &__btn1{
+      margin-bottom: 10px;
+    }
+    &__first-section{
+      padding: 70px 0 0 80px;
+    }
+
+  }
+  @media (max-width:450px) {
+  &__first-section{
+    padding: 70px 0 0 80px;
+  }
+  &__title1{
+    font-size: 16px;}
+  &__title2{
+    font-size: 16px;}}
+
+
+
+}

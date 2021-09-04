@@ -1,0 +1,101 @@
+.cards {
+  padding: 96px 135px 127px;
+  text-align: center;
+
+  &__title {
+    font-family: Gilroy, sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+
+  }
+
+  &__subtitle {
+    font-family: Gilroy, sans-serif;
+    font-size: 18px;
+    line-height: 135.94%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 64px;
+  }
+  &__img{
+    width: 100%;
+  }
+  &__card-row{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0 !important;
+  }
+  &__card{
+    width: calc(25% - 30px);
+
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: left;
+    background-color: #fafafa;
+    padding-bottom: 24px;
+    transition: 0.5s;
+    &:hover{
+      background-color: #fff;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+  }
+
+  &__card-title{
+    font-family: Gilroy, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin: 24px  24px 74px;
+  }
+  &__card-link{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 24px;
+    transition: 0.5s;
+    &:hover{
+      color: #0a53be;
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 960px) {
+    &__card{
+      width: calc(50% - 30px);
+      margin-bottom: 10px;
+    }
+    &__card-title{
+      font-size: 12px;
+      margin: 24px  24px 20px;}
+
+
+  }
+  @media(max-width: 600px){
+    &__card{
+      width: 80%;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media(max-width: 550px){
+    &__card{
+      width: 90%;
+      margin-bottom: 10px;
+    }
+  }
+  @media (max-width: 450px) {
+    &__card{
+      width: 100%;
+
+    }
+  }
+
+
+}
+
